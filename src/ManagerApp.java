@@ -1,13 +1,16 @@
 public class ManagerApp {
     public static void main(String[] args) {
 
-        Manager manager = new Manager();
-        manager.name ="Rezza";
-        manager.sayHello("Asu");
+        Employee employee = new Employee("Lotan");
+        employee.sayHello("Asu");
 
-        VicePresident vp = new VicePresident();
-        vp.name= "Jambot";
-        vp.sayHello("Kimak");
+        employee = new Manager("Lotan");
+        employee.sayHello("Asu");
+
+        employee = new VicePresident("Lotan");
+        employee.sayHello("Asu");
+    }
+    static void Assalamualaikum (String asu                               ){
 
     }
 }
