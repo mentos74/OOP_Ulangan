@@ -4,10 +4,15 @@ import java.util.List;
 public class TestApp {
     public static void main(String[] args) {
 
-        // Test test = new Test();
-        Test2 coba = new Test2();
 
 
+    Animal kucing = new Cat();
+    kucing.name = "Amboy";
+    kucing.run();
+
+    Cat kuciang = new Cat();
+    kucing.name = "Amboy";
+    kucing.run();
 
     }
 }
